@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+    body {
+      background: gray;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+    div {
+      background: white;
+      border: 25px solid white;
+      border-radius: 20px;
+      width: 800px;
+      height: 1200px;
+      position: relative;
+      left: 55px;
+      top: 180px; 
+  } 
+    
+    #video1 {
+      display: block;
+      position: relative;
+      width: 800px;
+  }
+  
+    .custom-progress-container{
+     position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #FFEAEC;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    }
+    
+    .custom-progress-bar {
+    
+    width: 0;
+    height: 100%;
+    background-color: #ffb4bc;
+    transition: width 0.1s linear;
+    }
+    
+    .btn {
+      font-weight: bold;
+      font-size: 45px;
+      margin-top: 30px;
+      margin-left: 40px;
+      border-radius: 150px;
+      background: white;
+      width: 250px;
+      height: 80px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-style: none;
+      border: 5px gray solid;
+      
+    }
+    
+    .h2 {
+      position: relative;
+      top: 0px;
+      font-size: 40px;
+  }
+    
+    p {
+      font-size: 30px;
+      position: relative;
+      bottom: 20px;
+  }
+    
+    .rd {
+      position: relative;
+      top: 280px;
+      color: dodgerblue;
+      font-weight: bold;
+      font-size: 35px;
+      left: 265px;
+      bottom: 20px;
+      background: skyblue;
+      border: 2px skyblue solid;
+      border-radius: 180px;
+      width: 250px;
+      height: 100px;
+    }
